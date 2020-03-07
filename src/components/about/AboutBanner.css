@@ -69,3 +69,19 @@
 
     z-index: 3;
 }
+
+/* 
+    -- Tablet View -- 
+*/
+
+@media(max-width: 876px) {
+
+}
+
+/* 
+    -- Mobile View -- 
+*/
+
+@media(max-width: 706px) {
+    
+}

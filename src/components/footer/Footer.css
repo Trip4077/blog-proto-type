@@ -31,3 +31,32 @@
 .footer-links .links-container .site-links a:hover {
    font-size: 18px;
 }
+
+/* 
+    -- Tablet View -- 
+*/
+
+@media(max-width: 876px) {
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        text-align: center;
+
+        height: 550px;
+    }
+
+    .footer-links .links-container  {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+     }
+}
+
+/* 
+    -- Mobile View -- 
+*/
+
+@media(max-width: 706px) {
+    
+}
