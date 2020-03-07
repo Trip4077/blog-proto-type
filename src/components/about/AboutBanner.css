@@ -19,13 +19,14 @@
 
     letter-spacing: 3px;
     margin: 0;
+    padding-bottom: 25px;
 }
 
 .photo-block {
     height: 350px;
     width: 350px;
 
-    background-color: lightskyblue;
+    background-color: #002080;
 
     position: absolute;
     top: 60%;
