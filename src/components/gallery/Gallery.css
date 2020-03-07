@@ -1,0 +1,46 @@
+.gallery {
+    box-sizing: border-box;
+    background-color: white;
+
+    width: 100%;
+    max-width: 100vw;
+
+    margin: 0;
+    padding: 50px;
+
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 62px;
+    font-family: 'Satisfy';
+    font-weight: 400;
+
+    letter-spacing: 3px;
+    margin-bottom: 22px;
+}
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin: 10px;
+
+    background-image: url('../../assets/blog-placeholder.jfif');
+    background-size: cover;
+    background-position: center;
+
+    transition: all 250ms ease;
+}
+
+
+.preview:hover {
+    transform: scale(1.1);
+}

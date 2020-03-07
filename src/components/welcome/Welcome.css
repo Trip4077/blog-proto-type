@@ -1,0 +1,70 @@
+.welcome {
+    font-family: 'Satisfy';
+    
+    width: 100%;
+    height: 425px;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+.welcome-header {
+    font-size: 68px;
+
+    letter-spacing: 8px;
+    margin: 0;
+}
+
+.welcome-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-list p {
+    font-size: 32px;
+    margin: 15px
+}
+
+.welcome-header, .welcome-list {
+    opacity: 0;
+
+    transition: opacity 1s ease-in;
+}
+
+.visible {
+    opacity: 100;
+}
+
+/* 
+    Tablet View
+*/
+
+@media(max-width: 876px) {
+    .welcome-header {
+        font-size: 40px;
+    }
+
+    .welcome-list p {
+        font-size: 24px;
+    }
+}
+
+/* 
+    -- Mobile View -- 
+*/
+
+@media(max-width: 706px) {
+    .welcome-header {
+        font-size: 28px;
+    }
+
+    .welcome-list p {
+        font-size: 18px;
+    }
+}
