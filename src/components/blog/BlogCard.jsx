@@ -1,8 +1,6 @@
 import React from 'react';
-import thumbnail from '../../assets/blog-placeholder.jfif';
 
 const BlogCard = props => {
-    console.log(props)
     return(
         <div className="blog-card">
             <div className="card-text">
