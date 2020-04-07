@@ -13,7 +13,7 @@ const Gallery = () => {
         axios.get( 'http://localhost:5000/api/images/' )
         .then( res => setPhotos( res.data ) )
         .catch( err => console.log(err) );
-    });
+    }, []);
 
     return(
         <div className="gallery">
