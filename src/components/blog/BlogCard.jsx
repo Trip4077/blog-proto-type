@@ -2,15 +2,16 @@ import React from 'react';
 import thumbnail from '../../assets/blog-placeholder.jfif';
 
 const BlogCard = props => {
+    console.log(props)
     return(
         <div className="blog-card">
             <div className="card-text">
                 <h2>{props.blog.title}</h2>
-                <p>{props.blog.description}</p>
-                <p>Published: {props.blog.date}</p>
+                <p>{props.blog.content.slice( 0, 120 ) }</p>
+                <p>Published: {props.blog.created_at}</p>
             </div>
            
-            <img src={thumbnail} alt="thumbnail" style={{ width: '350px', height: '220px' }}/>
+            <img src={props.blog.urls[0]} alt="thumbnail" style={{ width: '350px', height: '220px' }}/>
         </div>
     )
 }
