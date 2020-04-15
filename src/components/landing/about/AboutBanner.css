@@ -42,7 +42,7 @@
     height: 350px;
     width: 350px;
 
-    background-image: url('../../assets/profile-placeholder.png');
+    background-image: url('../../../assets/profile-placeholder.png');
     background-position: center;
     background-size: cover;
 

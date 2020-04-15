@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 import NavBar from '../components/navigation/NavBar';
-import Welcome from '../components/welcome/Welcome';
-import RecentBlogs from '../components/blog/RecentBlogs';
-import Gallery from '../components/gallery/Gallery';
-import NewsLetter from '../components/newsletter/NewsLetter';
-import AboutBanner from '../components/about/AboutBanner';
-import Footer from '../components/footer/Footer';
+import Welcome from '../components/landing/welcome/Welcome';
+import RecentBlogs from '../components/landing/blog/RecentBlogs';
+import Gallery from '../components/landing/gallery/Gallery';
+import NewsLetter from '../components/landing/newsletter/NewsLetter';
+import AboutBanner from '../components/landing/about/AboutBanner';
+import Footer from '../components/landing/footer/Footer';
 
 import axios from 'axios';
 
